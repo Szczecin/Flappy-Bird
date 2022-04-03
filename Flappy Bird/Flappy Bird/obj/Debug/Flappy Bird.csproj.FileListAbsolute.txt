@@ -1,0 +1,28 @@
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\bin\Debug\Flappy Bird.exe.config
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\bin\Debug\Flappy Bird.exe
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\bin\Debug\Flappy Bird.pdb
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.csprojAssemblyReference.cache
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.Form1.resources
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.JiFenBan.resources
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.Properties.Resources.resources
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.csproj.GenerateResource.cache
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.csproj.CoreCompileInputs.cache
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.exe
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.pdb
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.zhuzi.resources
+I:\学习\C#工程文件\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.Form2.resources
+G:\C# World\Flappy Bird\Flappy Bird\bin\Debug\Flappy Bird.exe.config
+G:\C# World\Flappy Bird\Flappy Bird\bin\Debug\Flappy Bird.exe
+G:\C# World\Flappy Bird\Flappy Bird\bin\Debug\Flappy Bird.pdb
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.csprojAssemblyReference.cache
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.Form1.resources
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.Form2.resources
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.JiFenBan.resources
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.Properties.Resources.resources
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.zhuzi.resources
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.csproj.GenerateResource.cache
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.csproj.CoreCompileInputs.cache
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.exe
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy Bird.pdb
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.Form3.resources
+G:\C# World\Flappy Bird\Flappy Bird\obj\Debug\Flappy_Bird.Form4.resources
