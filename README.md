@@ -90,7 +90,7 @@ Visual Studio 2017，C#
 
 需要玩家角色在点击按钮后，角色方块先减速上升，再加速下降；再次点击恢复初始速度上升，如此点击循环：
 
-```
+```CSharp
 public void PlayerMove(Control c,int dx,int dy)
 	{
 		Point p = c.Location;
@@ -110,7 +110,7 @@ public void PlayerMove(Control c,int dx,int dy)
 
 因为不使用贴图的原因，所以柱子的制作要靠控件构造实现，于是想办法构建具有特性引用的控件——柱子：
 
-```
+```CSharp
 public void ChuShiHuaZhuZi()
 	{
 		zhuzis = new ArrayList();
@@ -153,7 +153,7 @@ public void ChuShiHuaZhuZi()
 
 玩家的点击操作只控制方块的Y轴移动，通过柱子的X轴移动，达到玩家方块水平移动的效果；再通过计算整个窗体的长宽，设计柱子的生成高度，对随机函数的范围进行设计：
 
-```
+```CSharp
 private void Timer1_Tick(object sender, EventArgs e)
         {
             if (isOver)
@@ -193,7 +193,7 @@ private void Timer1_Tick(object sender, EventArgs e)
 
 计分板需要实时显示玩家的得分情况，即需要和碰撞得分域相互绑定，这样的显示功能是没有控件具备的，于是再次自己定义构造新控件：
 
-```
+```CSharp
 public void SetValue(int v)
         { 
             string vv;
@@ -220,7 +220,7 @@ public void SetValue(int v)
 
 在探索碰撞定义的过程中发现，窗体的左上角是所有控件坐标的（0，0）点，即向下向右移动时，控件拥有的位置属性坐标值讲增大，当这个数值达到固定位置控件的坐标数值时，就会发生碰撞，且这些在X轴与Y轴的反应上，一定是同步发生的：
 
-```
+```CSharp
 private void Movetimer_Tick(object sender, EventArgs e)
         {
             if (Form1.f1.isOver)
@@ -270,7 +270,7 @@ private void Movetimer_Tick(object sender, EventArgs e)
 
 玩家得分就是要越过柱子间的空隙，但是不能碰到上下两端，即可以在两柱子的间隙间设置一个透明的控件，作为碰撞域，当玩家方块与之碰撞时，计算得分，且通过这个控件的宽度设计和位置设计，也是改变游戏难度的一种方式：
 
-```
+```CSharp
 if(Tools.isOverLapC1(TriggerMid, Form1.f1.Player))
             {
                 if (!isScore)
@@ -306,7 +306,7 @@ if(Tools.isOverLapC1(TriggerMid, Form1.f1.Player))
 
 结算画面采取分区间显示得分的做法，通过不同分数区间显示不同的表情包达到激励游戏游玩的目的：
 
-```
+```CSharp
 public void ChangeScore()
         {
             Hide();
@@ -354,7 +354,7 @@ public void ChangeScore()
 
 ### 1.数据库链接
 
-```
+```CSharp
 private void button1_Click(object sender, EventArgs e)
         {
             String name, password;
@@ -376,7 +376,7 @@ private void button1_Click(object sender, EventArgs e)
 
 ### 2.登陆与注册输入判别
 
-```
+```CSharp
 try
             {
             if (sqlDataReader.HasRows)//满足用户名与密码一致，进入下一个界面
@@ -435,7 +435,7 @@ Source=IBN5100\SQLEXPRESS;Initial Catalog=BIRD;Integrated Security=True";
 
 ### 3.玩家运动函数
 
-```
+```CSharp
 public void PlayerMove(Control c,int dx,int dy)
         {
             Point p = c.Location;
@@ -447,7 +447,7 @@ public void PlayerMove(Control c,int dx,int dy)
 
 ### 4.柱子初始化
 
-```
+```CSharp
 public void ChuShiHuaZhuZi()
         {
             zhuzis = new ArrayList(); 
@@ -478,7 +478,7 @@ public void ChuShiHuaZhuZi()
 
 ### 5.分数显示
 
-```
+```CSharp
 int value = 0;
 
         public int Value
@@ -509,7 +509,7 @@ int value = 0;
 
 ### 6.时间轴运行
 
-```
+```CSharp
 private void Timer1_Tick(object sender, EventArgs e)
         {
             if (isOver)
@@ -536,7 +536,7 @@ private void Timer1_Tick(object sender, EventArgs e)
 
 ### 7.碰撞域函数及工具类
 
-```
+```CSharp
 private void Movetimer_Tick(object sender, EventArgs e)
         {
             if (Form1.f1.isOver)
